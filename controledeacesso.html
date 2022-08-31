@@ -261,58 +261,103 @@
                     </ul>
 
                 </nav>
-         
-                      <row class="p-3  position-absolute">
                 <div class="p-3"><h4>Cadastro da unidade</h4></div> 
-                
-                <input type="tel" name="" id=""  placeholder="Nome">
-                <input type="tel" name="" id=""  placeholder="Cep">
-                <input type="tel" name="" id=""  placeholder="Rua">
-                <input type="tel" name="" id=""  placeholder="Numero">
-                <input type="tel" name="" id=""  placeholder="Bairro">
-                <input type="tel" name="" id=""  placeholder="Estado">
-                <input type="tel" name="" id=""  placeholder="telefone">
-                <input type="tel" name="" id=""  placeholder="email">
-           
+
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltip01">Nome</label>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Nome" value="Nome" required>
+                        <div class="valid-tooltip">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltip02">Telefone</label>
+                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Telefone"  required>
+                        <div class="valid-tooltip">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationTooltipUsername">Email</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                          </div>
+                          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email" aria-describedby="validationTooltipUsernamePrepend" required>
+                          <div class="invalid-tooltip">
+                            Please choose a unique and valid username.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationTooltip03">Cidade</label>
+                        <input type="text" class="form-control" id="validationTooltip03" placeholder="Cidade" required>
+                        <div class="invalid-tooltip">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationTooltip04">Estado</label>
+                        <input type="text" class="form-control" id="validationTooltip04" placeholder="Estado" required>
+                        <div class="invalid-tooltip">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationTooltip05">Cep</label>
+                        <input type="text" class="form-control" id="validationTooltip05" placeholder="Cep" required>
+                        <div class="invalid-tooltip">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </form>
+
+                     
+                      <row class="p-4  position-absolute col-lg-8 " >
+                <div class="p-3"><h4>Cadastro da unidade</h4></div> 
+                <div class="mb-3">
+                <input type="tel" name="" id=""  placeholder="Nome" class="p-1 " >
+                <input type="tel" name="" id=""  placeholder="Cep" class="p-1">
+                <input type="tel" name="" id=""  placeholder="Rua" class="p-1">
+                <input type="tel" name="" id=""  placeholder="Numero" class="p-1">
+                <input type="tel" name="" id=""  placeholder="Bairro" class="p-1">
+                <input type="tel" name="" id=""  placeholder="Estado" class="p-1">
+                <input type="tel" name="" id=""  placeholder="telefone" class="p-1">
+                <input type="tel" name="" id=""  placeholder="email" class="p-1">
+               </div>
 
                <div class="p-3"><h4>Cadastro do Profissional</h4></div> 
-                
-               <input type="tel" name="" id=""  placeholder="Nome">
-               <input type="tel" name="" id=""  placeholder="profissão">
-               <input type="tel" name="" id=""  placeholder="Cep">
-               <input type="tel" name="" id=""  placeholder="Rua">
-               <input type="tel" name="" id=""  placeholder="Numero">
-               <input type="tel" name="" id=""  placeholder="Bairro">
-               <input type="tel" name="" id=""  placeholder="Estado">
-               <input type="tel" name="" id=""  placeholder="telefone">
-               <input type="tel" name="" id=""  placeholder="email">
+                <div class="mb-3">
+               <input type="tel" name="" id=""  placeholder="Nome" class="p-1">
+               <input type="tel" name="" id=""  placeholder="profissão " class="p-1" >
+               <input type="tel" name="" id=""  placeholder="Numero de registro" class="p-1">
+              </div>
 
-
-               
                <div class="p-3 "><h4>Exame</h4></div> 
-                
-               <input type="tel" name="" id=""  placeholder="Nome">
-               <input type="tel" name="" id=""  placeholder="codigo">
-               <input type="datetime-local" name="" id="" placeholder="codigo">
-               <input type="tel" name="" id=""  placeholder="local">
-               <input type="tel" name="" id=""  placeholder="Profissional">
-               
+                <div class="mb-3">
+               <input type="tel" name="" id=""  placeholder="Nome" class="p-1">
+               <input type="tel" name="" id=""  placeholder="codigo" class="p-1">
+               <input type="datetime-local" name="" id="" placeholder="codigo" class="p-1">
+               <input type="tel" name="" id=""  placeholder="local" class="p-1">
+               <input type="tel" name="" id=""  placeholder="Profissional" class="p-1">
+            </div>
               
 
                <div class="p-3"><h4>evento</h4></div> 
-                
-               <input type="tel" name="" id=""  placeholder="Nome">
-               <input type="tel" name="" id=""  placeholder="local">
-               <input type="tel" name="" id=""  placeholder="Cep">
-               <input type="tel" name="" id=""  placeholder="Bairro">
-               <input type="tel" name="" id=""  placeholder="Estado">
-               <input type="tel" name="" id=""  placeholder="telefone">
-               <input type="tel" name="" id=""  placeholder="email">
+               <div> <input type="tel" name="" id=""  placeholder="Nome" class="p-1">
+                <input type="tel" name="" id=""  placeholder="local" class="p-1"></div> 
+              
                <div class="p-3"><button class="btn btn-info">Cadastrar</button></div>
             
                 
             </row>
-             
+               
               
                
                                 </div>
@@ -372,7 +417,7 @@
                 </div>
                 <div class="modal-body">
                     Selecione "Sair" abaixo se estiver pronto para encerrar sua sessão atual.</div>
-                <div class="modal-footer">
+                <div class="page-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                     <a class="btn btn-primary" href="login.html">Sair</a>
                 </div>
